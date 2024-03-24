@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS aula_cloud_php;
+USE aula_cloud_php;
+CREATE TABLE IF NOT EXISTS usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL
+);
